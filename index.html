@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+	<!-- 
+		
+		Instruções para manipular os arquivos. 
+
+		1. Abra o arquivo index.html no seu editor de código.
+		2. Customize o conteúdo do arquivo index.html de acordo com as suas necessidades.
+		3. Altere a foto, o favicon e o título do site.
+		4. O arquivo bootstrap possui variados temas de cores, escolha o que mais lhe agradar. (Olhar a pasta assets/css.)
+		5. Linkedin e GitHub são apenas exemplos de redes sociais, sinta-se livre para adicionar outras redes sociais.
+		6. Adicione um link para o seu currículo em PDF. (Dica: Utilize o Google Drive para hospedar o arquivo PDF e compartilhar o link.)
+		7. Para as barras de afinidades com as tecnologias, você pode alterar o nome da tecnologia e a porcentagem de afinidade. Procure pela classe "progress-bar" e altere o valor de width. (Dica: A porcentagem é um valor entre 0 e 100.)
+		8. Salve o arquivo e abra o arquivo index.html no seu navegador para visualizar o site.
+		9. Subir no GitHub. 
+		10. Publicar utilizando o GitHub Pages. (Tutorial: https://www.alura.com.br/artigos/como-colocar-projeto-no-ar-com-github-pages/)
+		11. Compartilhar o link do seu site com a professora Adriana através da Planilha. 
+		12. Parabéns! Você concluiu o desafio.
+
+	-->
+
+
+<head>
+	<title>Cauê Costa - Mapa de Carreira</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+	<!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+
+	<!-- Theme CSS -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/bootstrap.css">
+
+</head>
+
+<body>
+
+	<article class="resume-wrapper text-center position-relative">
+		<div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
+			<header class="resume-header pt-4 pt-md-0">
+				<div class="row">
+					<div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
+						<img class="picture" src="assets/images/Foto-Perfil.jpeg" alt="">
+					</div>
+					<div class="col">
+						<div class="row p-4 justify-content-center justify-content-md-between">
+							<div class="primary-info col-auto">
+								<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Cauê Lopes da Costa</h1>
+								<div class="title mb-3">Desenvolvedor Web Java</div>
+								<ul class="list-unstyled">
+									<li class="mb-2">
+										<a class="text-link" href="#">
+											<i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i>
+											caue361@gmail.com
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="secondary-info col-auto mt-2">
+								<ul class="resume-social list-unstyled">
+									<li class="mb-3"><a class="text-link" href="https://www.linkedin.com/in/caue-costa11/">
+											<span class="fa-container text-center me-2">
+												<i
+													class="fab fa-linkedin-in fa-fw"></i></span>linkedin.com/in/caue-costa11/</a>
+									</li>
+									<li class="mb-3">
+										<a class="text-link" href="github.com/Bluecaue">
+											<span class="fa-container text-center me-2">
+												<i class="fab fa-github-alt fa-fw"></i></span>github.com/Bluecaue
+										</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</header>
+			<div class="resume-body p-5">
+				<section class="resume-section summary-section mb-5">
+					<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Prazer em Conhecer</h2>
+					<div class="resume-section-content">
+						<p class="mb-0">Olá, meu nome é Cauê e sou completamente apaixonado por tecnologia. Moro em São Paulo, Zona Sul. Desde criança, tenho uma admiração por tudo relacionado à tecnologia. Provavelmente, por gostar de jogos, foi um dos motivos que me levou a gostar dessa área. A arte de desenvolver algo com minhas próprias mãos é um incentivo para mim. Só de imaginar alguém usando algo que fiz já me deixa muito feliz. A possibilidade de melhorar a condição das pessoas é incrível. Gosto muito de aprender coisas novas, seja soft skills ou hard skills. Penso que me desenvolver é uma das coisas mais importantes. Com essa paixão pela tecnologia e o desejo de criar algo que faça a diferença na vida das pessoas, estou constantemente buscando oportunidades para adquirir mais conhecimento e aprimorar minhas habilidades. Estou sempre disposto a enfrentar novos desafios e a explorar diferentes áreas dentro do vasto campo da tecnologia.</p>
+
+						<!-- Altere o link para um PDF do seu Curriculo -->
+						<a class="btn" href="assets/curriculo/curriculo-caue.pdf" download >Baixar o meu CV</a>
+					</div>
+				</section>
+				<div class="row">
+					<div class="col-lg-9">
+						<section class="resume-section experience-section mb-5">
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Mapa de Carreira
+							</h2>
+							<div class="resume-section-content">
+								<div class="resume-timeline position-relative">
+									<article class="resume-timeline-item position-relative pb-5">
+
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Estagiário como Desenvolvedor Front-End
+												</h3>
+											</div>
+										</div>
+										<div class="resume-timeline-item-desc">
+											<p>Aspirante a desenvolver projetos e resolver problemas dentro de interfaces digitais. Busco me auto aprimorar dentro deste universo da Web, visando o melhor para as pessoas fazendo que tenham uma experiência satisfatória com o meu trabalho. Sou uma pessoa que valoriza o trabalho em equipe, dedicado e com muita vontade de aprender. Estou na busca do meu tão sonhado primeiro emprego, para poder explorar esse mundo. Aprender coisas novas e que possam ajudar as outras pessoas, mesmo sendo uma tarefa difícil insisto em fazer o que gosto, me tornar um desenvolvedor preparado para o futuro. Aprendendo além das hard skills, mas também praticando sempre as soft skills para me tornar alguém completo.</p>
+											</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Soft Skills exigidas para essa carreira:
+											</h4>
+											<ul>
+												<li>Proatividade</li>
+												<li>Gestão de Tempo</li>
+												<li>Comunicação</li>
+												<li>Vontade de Aprender</li>
+												<li>Trabalho em Equipe</li>
+												<li>Flexivel</li>
+												<li>Autoconfiança</li>
+												<li>Criatividade</li>
+												<li>Ser Empenhado</li>
+											</ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Roadmap de Aprendizado:</h4>
+											</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">HTML</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">CSS</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">JavaScript</span>
+												</li>
+												
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">JQuery</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Redux</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Git</span>
+												</li>
+												
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">SASS</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Webpack</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">ReactJS</span>
+												</li>
+												
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">VueJS</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Angular</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">TypeScript</span>
+												</li>
+											</ul>
+										</div>
+
+									</article>
+
+									<article class="resume-timeline-item position-relative pb-5">
+
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Desenvolvedor Front-End Júnior</h3>
+											</div>
+										</div>
+										<div class="resume-timeline-item-desc">
+											<p>Como um Desenvolvedor Júnior, terei um crescimento melhorado e constante nas resoluções de projetos para interfaces mais atuais e modernas, tendo um desempenho maior, que irá proporcionar uma satisfação melhor para os usuários, tendo funcionalidades novas e inovadoras, garantindo uma gratificação para aqueles que usarem o meu trabalho. Busco ir além se possível, participando de projetos em grupos e equipes, pensando no desenvolvimento das soft skills, tanto meu quanto dos com quem irei trabalhar.</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Soft Skills exigidas para essa carreira:
+											</h4>
+											<ul>
+												<li>Proatividade</li>
+												<li>Gestão de Tempo</li>
+												<li>Comunicação</li>
+												<li>Vontade de Aprender</li>
+												<li>Trabalho em Equipe</li>
+												<li>Flexivel</li>
+												<li>Autoconfiança</li>
+												<li>Criatividade</li>
+												<li>Ser Empenhado</li>
+												<li>Inteligência Emocional</li>
+												<li>Resiliência</li>
+												<li>Empatia</li>
+											</ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Roadmap de Aprendizado:</h4>
+											<ul class="list-inline">
+												
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">React</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">API's</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Redux</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">SQL</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">NodeJS</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Angular</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">TypeScript</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">VueJS</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">JQuery</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">AWS</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Azure</span>
+												</li>
+											</ul>
+										</div>
+
+									</article>
+
+									<article class="resume-timeline-item position-relative pb-5">
+
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Desenvolvedor Front-End Pleno
+												</h3>
+
+											</div>
+										</div>
+										<div class="resume-timeline-item-desc">
+											<p>Ao me tornar um desenvolvedor Front-End pleno, terei conhecimento suficiente para poder começar a ajudar os outros colegas. Terei uma forte especialização na parte do front e back, podendo fazer projetos mais complexos com interfaces únicas, com qualidade e entregas mais rápidas. Além disso, terei uma comunicação mais eficiente, podendo liderar equipes e ajudá-las em suas resoluções. Visando dar às pessoas algo que merecem, com a maior qualidade possível, e melhorando nossa equipe.</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Soft Skills exigidas para essa carreira:
+											</h4>
+											<ul>
+												<li>Proatividade</li>
+												<li>Gestão de Tempo</li>
+												<li>Comunicação</li>
+												<li>Vontade de Aprender</li>
+												<li>Trabalho em Equipe</li>
+												<li>Flexivel</li>
+												<li>Autoconfiança</li>
+												<li>Criatividade</li>
+												<li>Ser Empenhado</li>
+												<li>Inteligência Emocional</li>
+												<li>Resiliência</li>
+												<li>Empatia</li>
+												<li>Visão de dono</li>
+												<li>Capacidade de liderar</li>
+												<li>Gestão de projetos</li>
+											</ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Roadmap de Aprendizado:</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">React</span>
+												</li>
+
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">React Avançado</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">API's</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Redux</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Azure</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">AWS</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Oracle</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Java</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">NodeJS</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">SQL</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Protocolo HTTP</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">MySQL</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">MongoDB</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">PostgreeSQL</span>
+												</li>
+
+											</ul>
+										</div>
+
+									</article>
+
+									<article class="resume-timeline-item position-relative">
+
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">
+													Desenvolvedor de IA
+												</h3>
+											</div>
+										</div>
+										<div class="resume-timeline-item-desc">
+											<p>Decidi explorar essa área por admiração e pelo que ela é capaz de trazer para nós, devido ao seu potencial inovador, capaz de ensinar, ajudar e até realizar diversas coisas. Busco aprender para conhecer como utilizá-la, a fim de poder aplicá-la em meus projetos, se possível, visando ajudar as pessoas e tornar tudo mais simples. Continuo meu aprimoramento interpessoal em tudo que tenho feito.</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Soft Skills exigidas para essa carreira:
+											</h4>
+											<ul>
+												<li>Proatividade</li>
+												<li>Gestão de Tempo</li>
+												<li>Comunicação</li>
+												<li>Vontade de Aprender</li>
+												<li>Trabalho em Equipe</li>
+												<li>Flexivel</li>
+												<li>Autoconfiança</li>
+												<li>Criatividade</li>
+												<li>Ser Empenhado</li>
+												<li>Inteligência Emocional</li>
+												<li>Resiliência</li>
+												<li>Empatia</li>
+											</ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Roadmap de Aprendizado:</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Python</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Java</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">C++</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Julia</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Lisp</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Clojure</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Ruby</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">R</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Skala</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Matlab</span>
+												</li>
+											</ul>
+										</div>
+									</article>
+
+									<article class="resume-timeline-item position-relative">
+
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">
+													Desenvolvedor de Jogos
+												</h3>
+											</div>
+										</div>
+										<div class="resume-timeline-item-desc">
+											<p>Com o desenvolvimento que tive ao longo do tempo, busco somar todas as minhas habilidades de programação que adquiri, em algo que sempre gostei na vida. Uma área dos sonhos, sempre gostei de jogos e queria poder expressar esse sentimento para as pessoas. Trazendo o máximo de coisas possíveis de serem feitas, poderei me desenvolver nessa área e aprender constantemente tudo que ela tem a oferecer. Podendo ensinar conhecimentos de outras áreas ou adaptá-los em um jogo.</p>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Soft Skills exigidas para essa carreira:
+											</h4>
+											<ul>
+												<li>Proatividade</li>
+												<li>Gestão de Tempo</li>
+												<li>Comunicação</li>
+												<li>Vontade de Aprender</li>
+												<li>Trabalho em Equipe</li>
+												<li>Flexivel</li>
+												<li>Autoconfiança</li>
+												<li>Criatividade</li>
+												<li>Ser Empenhado</li>
+												<li>Inteligência Emocional</li>
+												<li>Resiliência</li>
+												<li>Empatia</li>
+											</ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Roadmap de Aprendizado:</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">C</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">C++</span>
+												</li>	
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">C#</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="badge bg-secondary badge-pill">Python</span>
+													<li class="list-inline-item">
+														<span class="badge bg-secondary badge-pill">Game Mathematics</span>
+													</li>
+													<li class="list-inline-item">
+														<span class="badge bg-secondary badge-pill">Game Physics</span>
+													</li>
+													<li class="list-inline-item">
+														<span class="badge bg-secondary badge-pill">Graphics API</span>
+													</li>
+													<li class="list-inline-item">
+														<span class="badge bg-secondary badge-pill">Game AI</span>
+													</li>
+													<li class="list-inline-item">
+														<span class="badge bg-secondary badge-pill">Ruby(Gosu)</span>
+													</li>
+													<li class="list-inline-item">
+														<span class="badge bg-secondary badge-pill">Smalltalk(Squeak/Pharo)</span>
+													</li>
+												</li>
+											</ul>
+										</div>
+									</article>
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="col-lg-3">
+						<section class="resume-section skills-section mb-5">
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Soft e Hard
+								Skills</h2>
+							<p>Afinidade com as seguintes tecnologias e técnicas:</p>
+							<div class="resume-section-content">
+
+								<div class="resume-skill-item">
+									<h4 class="resume-skills-cat font-weight-bold">Soft Skills</h4>
+									<ul class="list-unstyled mb-4">
+										
+										<li class="mb-2">
+											<div class="resume-skill-name">Comunicação</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 80%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Trabalho em equipe</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 85%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+
+										<li class="mb-2">
+											<div class="resume-skill-name">Vontade de Aprender</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 100%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Colaboração</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 100%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Autoconhecimento</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 80%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Empatia</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 80%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+
+								<div class="resume-skill-item">
+									<h4 class="resume-skills-cat font-weight-bold">Frontend</h4>
+									<ul class="list-unstyled mb-4">
+										
+										<li class="mb-2">
+											<div class="resume-skill-name">React</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 60%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">JavaScript</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 50%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+
+										<li class="mb-2">
+											<div class="resume-skill-name">HTML/CSS</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 75%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+
+								<div class="resume-skill-item">
+									<h4 class="resume-skills-cat font-weight-bold">Backend</h4>
+									<ul class="list-unstyled">
+										<li class="mb-2">
+											<div class="resume-skill-name">JAVA</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 5%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">MySQL</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 30%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Python</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark" role="progressbar"
+													style="width: 10%" aria-valuenow="25" aria-valuemin="0"
+													aria-valuemax="100"></div>
+											</div>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<div class="resume-skill-item">
+									<h4 class="resume-skills-cat font-weight-bold">Outras</h4>
+									<ul class="list-inline">
+										<li class="list-inline-item"><span class="badge badge-light">Git</span></li>
+										<li class="list-inline-item"><span class="badge badge-light">JQuery</span>
+										</li>
+										<li class="list-inline-item"><span class="badge badge-light">GitHub</span></li>
+										
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<section class="resume-section language-section mb-5">
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Idiomas</h2>
+							<div class="resume-section-content">
+								<ul class="list-unstyled resume-lang-list">
+									<li class="mb-2"><span class="resume-lang-name font-weight-bold">Português</span>
+										<small class="text-muted font-weight-normal">(Nativo)</small>
+									</li>
+									<li class="mb-2 align-middle"><span
+											class="resume-lang-name font-weight-bold">Inglês</span> <small
+											class="text-muted font-weight-normal">(Intermediário, com Comunicação Básico)</small></li>
+									<li><span class="resume-lang-name font-weight-bold">Espanhol</span> <small
+											class="text-muted font-weight-normal">(Básico)</small></li>
+								</ul>
+							</div>
+						</section>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+</body>
+
+</html>
